@@ -16,4 +16,13 @@
         android:layout_gravity="center"
         android:background="@drawable/ripple_effect"
         app:srcCompat="@drawable/lasericon" />
+    <ImageButton
+        android:id="@+id/starsbutton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:background="@drawable/ripple_effect"
+        app:srcCompat="@drawable/starsicon" />
 </LinearLayout>
