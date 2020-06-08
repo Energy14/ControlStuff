@@ -5,24 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/colorPrimaryDark">
+    android:background="@drawable/gradient">
 
     <ImageButton
-        android:id="@+id/laserbutton"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="100dp"
+        android:id="@+id/attentibutton"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="170dp"
         android:scaleType="fitCenter"
         android:layout_gravity="center"
         android:background="@drawable/ripple_effect"
-        app:srcCompat="@drawable/lasericon" />
-    <ImageButton
-        android:id="@+id/starsbutton"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="100dp"
-        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/upside_down" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/ripple_effect"
-        app:srcCompat="@drawable/starsicon" />
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:text="Press the button to get my attention!" />
+
 </LinearLayout>
